@@ -3,7 +3,8 @@ from  threading import Thread
 import random
 
 users = [
-
+     'Mozilla/5.0 (X11; Linux i686; rv:89.0) Gecko/20100101 Firefox/89.0.',
+    'Mozilla/5.0 (Windows NT 10.0; WOW64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36 OPR/76.0.4017.177.'
 ]
 headers ={
     'User-Agent' : random.choice(users)
